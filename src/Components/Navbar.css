@@ -1,0 +1,28 @@
+.navbar {
+  display: flex;
+  margin-top: 30px;
+  align-items: center;
+  justify-content: space-around;
+}
+.nav_link {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+.nav_link li a {
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 500;
+  padding: 10px 20px;
+  margin: 0 10px;
+  cursor: pointer;
+  color: hsl(233, 8%, 62%);
+}
+.nav_button {
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 15px;
+  border: none;
+  color: white;
+  background: linear-gradient(to left, hsl(192, 70%, 51%), hsl(136, 65%, 51%));
+}

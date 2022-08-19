@@ -1,0 +1,45 @@
+.onboard {
+  display: flex;
+  margin-top: 40px;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background-color: hsl(220, 16%, 96%);
+  height: 800px;
+}
+.plane {
+  width: 800px;
+  height: 900px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  object-fit: contain;
+}
+.mockups {
+  position: relative;
+  object-fit: contain;
+  top: 50px;
+}
+.onboard_txt {
+  width: 350px;
+  margin-left: 100px;
+  margin-bottom: 100px;
+}
+.onboard_txt_header {
+  font-weight: 700;
+  color: hsl(233, 26%, 24%);
+  margin-bottom: 30px;
+}
+.onboard_txt_description {
+  margin-bottom: 30px;
+  color: hsl(233, 8%, 62%);
+  font-weight: 400;
+  font-size: 18px;
+}
+.onboard_txt_btn {
+  padding: 12px 24px;
+  color: white;
+  background: linear-gradient(to left, hsl(192, 70%, 51%), hsl(136, 65%, 51%));
+  border: none;
+  border-radius: 15px;
+}
