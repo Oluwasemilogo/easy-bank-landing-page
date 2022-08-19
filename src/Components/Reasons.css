@@ -39,6 +39,7 @@
 .reasoncontent_description {
   margin-bottom: 10px;
   color: hsl(233, 8%, 62%);
+  width: 200px;
   font-weight: 300;
 }
 .reason_why {

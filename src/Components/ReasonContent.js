@@ -12,7 +12,7 @@ function ReasonContent(props) {
           />
           <div className="reasoncontent_info">
             <h3 className="reasoncontent_text">{props.text}</h3>
-            <p className="reasoncontent_desciption">{props.description}</p>
+            <p className="reasoncontent_description">{props.description}</p>
           </div>
         </div>
       </li>

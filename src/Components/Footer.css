@@ -1,0 +1,61 @@
+.footer {
+  background-color: hsl(233, 26%, 24%);
+  height: 200px;
+  color: #fff;
+  padding: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo_container {
+  display: block;
+}
+.socials {
+  margin-top: 40px;
+}
+.logos {
+  align-items: center;
+  display: flex;
+  color: #fff;
+}
+
+.facebook {
+  margin-left: 8px;
+}
+.youtube {
+  margin-left: 8px;
+}
+.tweet {
+  margin-left: 8px;
+}
+.pinterest {
+  margin-left: 8px;
+}
+.insta {
+  margin-left: 8px;
+}
+.links1 > p > a {
+  text-decoration: none;
+  color: hsl(220, 16%, 96%);
+  font-weight: 300;
+}
+.links2 > p > a {
+  text-decoration: none;
+  color: hsl(220, 16%, 96%);
+  font-weight: 300;
+  padding-top: 20px;
+}
+.btnrequest {
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 15px;
+  border: none;
+  color: white;
+  background: linear-gradient(to left, hsl(192, 70%, 51%), hsl(136, 65%, 51%));
+}
+.right {
+  color: hsl(233, 8%, 62%);
+  font-weight: 100;
+  font-size: 15px;
+  margin-top: 15px;
+}
