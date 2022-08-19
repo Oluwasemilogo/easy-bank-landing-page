@@ -4,21 +4,23 @@
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  background-color: hsl(220, 16%, 96%);
+  max-width: 100%;
+  background-color: hsl(0, 0%, 98%);
   height: 800px;
 }
 .plane {
-  width: 800px;
+  width: 900px;
   height: 900px;
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 20px;
+  right: 10px;
   object-fit: contain;
 }
 .mockups {
   position: relative;
   object-fit: contain;
   top: 50px;
+  left: 0px;
 }
 .onboard_txt {
   width: 350px;
